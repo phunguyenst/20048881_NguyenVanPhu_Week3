@@ -5,22 +5,13 @@ import React from "react";
 import { useNavigation } from '@react-navigation/native';
 // import LoginScreen from "./screen/LoginScreen";
 // import ForgetPassword from "./screen/ForgetPassword";
-// import { createNativeStackNavigator } from "@react-navigation/native-stack";
-// import { useNavigation } from "@react-navigation/native";
-// const Stack = createNativeStackNavigator();
 
 export default function App() {
   const navigation = useNavigation();
-  // function handleLogin() {
-  //   navigation.navigate("LoginScreen");
-  // }
+
 
   return (
-    // <NavigationContainer>
-    //   <Stack.Navigator>
-    //     <Stack.Screen name="App" component={App} />
-    //     <Stack.Screen name="LoginScreen" component={LoginScreen} />
-    //   </Stack.Navigator>
+
 
     <View style={styles.container}>
       <LinearGradient
@@ -33,10 +24,10 @@ export default function App() {
        
         <View style={styles.view1}>
         <View style={styles.header0}>
-            <Button
+            {/* <Button
               title="chuyển trang ->"
               onPress={() => navigation.navigate("screen2")}
-            ></Button>
+            ></Button> */}
           </View>
           <Image
             source={require("../assets/Ellipse 8.jpg")}

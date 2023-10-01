@@ -23,11 +23,11 @@ export default function ForgetPassword() {
     <View style={styles.container}>
      
     <View style={styles.header0}>
-          <Button
+          {/* <Button
             title="chuyển trang ->"
             onPress={() => navigation.navigate("screen3")}
           >
-          </Button>
+          </Button> */}
           </View>
         <StatusBar style="auto" />
         <View style={styles.view1}>
